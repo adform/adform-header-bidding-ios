@@ -196,7 +196,7 @@ and more information about Google DFP SDK integration can be found
 
 * Load the ad.
 
-```objec
+```objc
 
 - (void)loadBanner:(DFPRequest *)adRequest {
 
