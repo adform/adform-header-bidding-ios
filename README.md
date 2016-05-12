@@ -11,40 +11,7 @@ The use of Adform Header Bidding SDK requires the following:
 
 ## 2. Integration
 
-### 2.1. Using CocoaPods
-
-Adform Header Bidding SDK is available via CocoaPods. CocoaPods is a very popular Objective-C dependency management tool. 
-
-* To use CocoaPods, you should first install the CocoaPods Ruby Gem (CocoaPods is built with Ruby):
-
-````
-$ sudo gem install cocoapods
-````
-
-* Next, you need to create a `Podfile`, which describes what dependencies you project has. This file should be placed in your project directory. 
-
-````
-$ pod init
-````
-
-* Next, edit `Podfile` and add the platform identifier and the list of libraries you want to use in the project. 
-
-````
-platform: ios
-
-pod 'AdformHeaderBidding'
-````
-
-* Finally, you have to install the selected libraries.
-
-````
-pod install
-````
-Thats it!
-
-For more information about CocoaPods visit [CocoaPods site](http://cocoapods.org/about).
-
-### 2.2. Manual
+### 2.1. Manual
 
 * Download latest build version of Adform Header Bidding SDK.
 * Drag **AdformHeaderBidding.framework** to your project.
