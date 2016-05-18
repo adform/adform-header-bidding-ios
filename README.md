@@ -97,9 +97,7 @@ You should set its value to "Your location will be used to show relevant ads nea
 In order to load Adform banners with Google DFP SDK using Adform Header Bidding SDK
 you need to follow these steps:
 
-* Configure a creative for header bidding on DFP interface.
-
-
+* Configure a creative for header bidding on DFP interface. Please visit our Publisher help center for more [information](http://publishers.adform.com/documentation/mobile/header-bidding-sdk/dfp/).
 
 * Import Adform Header Bidding SDK and Google DFP SDK to your project.
 For more information on Adform Header Bidding SDK integration take a look at 
