@@ -11,7 +11,41 @@ The use of Adform Header Bidding SDK requires the following:
 
 ## 2. Integration
 
-### 2.1. Manual
+### 2.1. Using CocoaPods
+
+Adform Header Bidding SDK is available via CocoaPods. CocoaPods is a very popular Objective-C dependency management tool. 
+
+* To use CocoaPods, you should first install the CocoaPods Ruby Gem (CocoaPods is built with Ruby):
+
+````
+$ sudo gem install cocoapods
+````
+
+* Next, you need to create a `Podfile`, which describes what dependencies you project has. This file should be placed in your project directory. 
+
+````
+$ pod init
+````
+
+* Next, edit `Podfile` and add the platform identifier and the list of libraries you want to use in the project. 
+
+````
+platform: ios
+
+pod 'AdformHeaderBidding'
+````
+
+* Finally, you have to install the selected libraries.
+
+````
+pod install
+````
+Thats it!
+
+For more information about CocoaPods visit [CocoaPods site](http://cocoapods.org/about).
+
+
+### 2.2. Manual
 
 * Download latest build version of Adform Header Bidding SDK.
 * Drag **AdformHeaderBidding.framework** to your project.
@@ -141,10 +175,7 @@ and more information about Google DFP SDK integration can be found
         // Set custom targeting parameters. We use these parameters to pass
         // header bidding data to DFP sdk.
         // You need to customize bidding price for hb_pb parameter, that it would be formatted with two trailing zeros (e.g."1.00").
-        // To display ads by using Google DFP SDK it requires base64 encoded hb_adid parameter
-        // but there are some issues with encoded string, therefore we use a workaround 
-        // to solve them by replacing base64 encoded string "=" symbols with "-" symbols
-        // and then replace them back in banner HTML/JavaScript loaded in webview.
+        // To display ads by using Google DFP SDK it requires base64 encoded hb_adid parameter.
         NSDictionary *customTargeting = @{@"hb_pb": [NSString stringWithFormat:@"%.2f", bidResponse.cpm],
                                       @"hb_bidder": @"Bidder",
                                       @"hb_adid":  [bidResponse.adUnitScriptEncoded stringByReplacingOccurrencesOfString:@"=" withString:@"-"] };
