@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/AFBidLoader.h</key>
 		<data>
-		dPStGxG+7D/o1pHE0gbTbBMuFxo=
+		6hA2nvp4RF3y9C/Up15ciFJGjw4=
 		</data>
 		<key>Headers/AFBidRequest.h</key>
 		<data>
-		u+cuBggS92OgORwm1pdAC0YY+FE=
+		8G/cCKu9jUomV0rTdNDQ6OavVGU=
 		</data>
 		<key>Headers/AFBidResponse.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		R/QyljrVSEdQH1E/Df6covM1rDk=
+		j6X03980VFD+8YJy5WNyh0Gjx48=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,22 +43,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dPStGxG+7D/o1pHE0gbTbBMuFxo=
+			6hA2nvp4RF3y9C/Up15ciFJGjw4=
 			</data>
 			<key>hash2</key>
 			<data>
-			zlOcF+hK72KmLUV1atmI7Oy8OmwD/vud5LssL6XqMpc=
+			+kaBA4sgrtJy8ol07lau1SECASamqgavo2C9wQVWQO4=
 			</data>
 		</dict>
 		<key>Headers/AFBidRequest.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u+cuBggS92OgORwm1pdAC0YY+FE=
+			8G/cCKu9jUomV0rTdNDQ6OavVGU=
 			</data>
 			<key>hash2</key>
 			<data>
-			DvL5ayZV8gV9WYoicMCpkZCrlNBDOK78GDrE0JtoOak=
+			xFDCLatkbiKJnnndR1i2OJMH4R0cIvp4mOhjoVxMUCk=
 			</data>
 		</dict>
 		<key>Headers/AFBidResponse.h</key>
