@@ -5,7 +5,7 @@
 The use of Adform Header Bidding SDK requires the following:
 
 * Xcode 7.0 or later.
-* iOS SDK 7.0 or later.
+* iOS 7.0 or later.
 * Requires deployment target 7.0 or later.
 * Requires ARC to be enabled. 
 
@@ -93,7 +93,7 @@ Exmaple bellow shows you how to request bids:
     }];
 ````
 
-## 4. Configuring `AFBidRequest`
+### 3.1 Configuring `AFBidRequest`
 
 Bid request must have `masterTagId`, `placementType` and `supportedAdSizes` properties set before executing. 
 To do so you should use convenience initializer `initWithMasterTagId:palcementType:supportedAdSizes:`.
@@ -103,7 +103,7 @@ based on the master tag configuration. Additionaly you can set `bidTimeOut` and 
 You can set `AFAdxDomainEUR` or `AFAdxDomainUSA`, default value `AFAdxDomainEUR`. `AFAdxDomainEUR` is used for European markets
 and `AFAdxDomainUSA` is used for USA markets.
 
-## 5. Enabling location tracking on Adform Header Bidding SDK
+### 3.2 Enabling location tracking on Adform Header Bidding SDK
 
 Adform Header Bidding SDK has an ability to track user location. 
 This feature is enabled globally through AFHeaderBiddingSDK class. 
@@ -126,7 +126,7 @@ The best place to do this is application:didFinishLaunchingWithOptions: applicat
 Otherwise location tracking wont work on iOS 8+. 
 You should set its value to "Your location will be used to show relevant ads nearby." or its translation.***
 
-## 3. DFP integration
+## 4. DFP integration
 
 In order to load Adform banners with Google DFP SDK using Adform Header Bidding SDK
 you need to follow these steps:
