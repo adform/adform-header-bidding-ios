@@ -4,9 +4,9 @@
 
 The use of Adform Header Bidding SDK requires the following:
 
-* Xcode 7.0 or later.
-* iOS 7.0 or later.
-* Requires deployment target 7.0 or later.
+* Xcode 12.0 or later.
+* iOS 8.0 or later.
+* Requires deployment target 8.0 or later.
 * Requires ARC to be enabled. 
 
 ## 2. Integration
