@@ -2,7 +2,7 @@
 
 ## ***iOS 15 support***
 
-You can check out the new Adform Tracking SDK version that supports iOS 15 in `ios_15` branch.
+You can check out the new Adform Header Bidding SDK version that supports iOS 15 in `ios_15` branch.
 
 ## 1. General Info
 
