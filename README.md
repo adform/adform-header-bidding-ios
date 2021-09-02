@@ -4,9 +4,8 @@
 
 The use of Adform Header Bidding SDK requires the following:
 
-* Xcode 12.0 or later.
-* iOS 8.0 or later.
-* Requires deployment target 8.0 or later.
+* Xcode 13.0 beta 5 or later.
+* Requires deployment target 12.0 or later.
 * Requires ARC to be enabled. 
 
 ## 2. Integration
@@ -32,7 +31,7 @@ $ pod init
 ```ruby
 platform: ios
 
-pod 'AdformHeaderBidding'
+pod 'AdformHeaderBidding', :git => 'https://github.com/adform/adform-header-bidding-ios', :branch => 'ios_15'
 ```
 
 * Finally, you have to install the selected libraries.
