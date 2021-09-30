@@ -1,15 +1,11 @@
 # Getting Started
 
-## ***iOS 15 support***
-
-You can check out the new Adform Header Bidding SDK version that supports iOS 15 in `ios_15` branch.
-
 ## 1. General Info
 
 The use of Adform Header Bidding SDK requires the following:
 
-* Xcode 12.0 or later.
-* iOS 8.0 or later.
+* Xcode 13.0 or later.
+* iOS 9.0 or later.
 * Requires deployment target 8.0 or later.
 * Requires ARC to be enabled. 
 
@@ -350,6 +346,12 @@ bidRequest.usPrivacy = @"US_PRIVACY";
 # Release Notes
 
 This part lists release notes from all versions of Adform Header Bidding iOS SDK.
+
+## 1.2
+
+### New Features
+
+* iOS 15 support;
 
 ## 1.1
 
